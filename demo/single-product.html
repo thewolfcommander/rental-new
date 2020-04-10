@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/single-product.css" />
+
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+  <!-- Required meta tags -->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/cycle2.js"></script>
+
+  <!--font family-->
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <title>Mycocosoul- single products </title>
+  <style>
+   
+
+  </style>
+
+</head>
+
+<body>
+    <!-- 
+ Navbar with brand center, links on left and right that all collapse into the vertical mobile
+    menu
+-->
+<nav class="navbar navbar-expand-md bg sticky-top justify-content-between" id="mainNavForDesk">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars"></i> </span>
+      </button>
+      <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                <li class="nav-item hideIcon"><a id="modalActivate" data-toggle="modal" data-target="#exampleModalPreview" class="nav-link" href="#"><i class="fa fa-search" style="font-size:20px"></i></a></li>
+                <li class="nav-item hideIcon"><a class="nav-link" href="#"><i class="fa fa-heart" style="font-size:20px"></i></a></li>
+              </li>
+              <li class="nav-item">
+                <div class="megamenu">
+                  <button class="dropbtn nav-link">SHOP
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="megamenu-content">
+                    <!-- <div class="header">
+                      <h2 >Mega Menu</h2>
+                    </div>    -->
+                    <div class="row">
+                      <div class="column">
+                        <a class="nav-link drop-nav-title"  href="all-products.html">ALL  </a>
+                        <div class="row other">
+                          <a class="drop-link-desc"  href="#">COCO SOUL HAIR & SCALP CLEANSER</a> </h3>
+                          <a class="drop-link-desc"  href="#">COCO SOUL HAIR & SCALP CLEANSER</a> </h3>
+                          <a class="drop-link-desc"  href="#">COCO SOUL HAIR & SCALP CLEANSER</a> </h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <a class="nav-link drop-nav-title" href="all-products.html">SKIN CARE <i class="fa fa-arrow-right"></i ></a>
+                        <div>
+                          <img src="img/skin-product1.png" alt="" width="100%">
+                         <a class="drop-link-desc" href="#">COCO SOUL HAIR & SCALP CLEANSER</a>
+                          <a style="text-align: center;" href="single-product.html" >ADD TO CART</a> 
+                        </div>
+                      </div>
+                     <div class="column">
+                        <a class="nav-link drop-nav-title" href="all-products.html">HAIR CARE <i class="fa fa-arrow-right"></i></a>
+                        <div>
+                          <img src="img/skin-product1.png" alt="" width="100%">
+                          <a class="drop-link-desc" href="#">COCO SOUL HAIR & SCALP CLEANSER</a> </h3>
+                          <a style="text-align: center;" href="single-product.html" >ADD TO CART</a> 
+                        </div>
+                      </div>
+                      <div class="column">
+                        <a class="nav-link drop-nav-title" href="all-products.html">EXCLUSIVE <i class="fa fa-arrow-right"></i></a>
+                        <div>
+                          <img src="img/skin-product1.png" alt="" width="100%">
+                          <a class="drop-link-desc" href="#">COCO SOUL HAIR & SCALP CLEANSER</a> </h3>
+                          <a style="text-align: center;" href="single-product.html" >ADD TO CART</a> 
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div> 
+              </li>
+              <li class="nav-item link">
+                  <a class="nav-link " href="cocosoulstory.html">COCO SOUL STORY</a>
+              </li>
+          </ul> 
+      </div>
+      <a href="/"  class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"><img src="img/logo.png" > </a>
+      
+      <div class="navbar-collapse collapse dual-nav w-50 order-2">
+          <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item link"><a class="nav-link" href="myaccount.html">MY ACCOUNT</a></li>
+              <li class="nav-item hideIcon"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart" style="font-size:20px"><span> ₹0</span></i> </a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+<!--mobile header-->
+<div class="mobile">
+	<div class="mainContainer">
+		<header>
+      <a href="#" class="logo"><img src="img/logo.png" class="logo"> </a>
+      <a id="modalActivate"  style="float: right;font-size: 18px; margin-top: 15px; margin-right: 70px;" data-toggle="modal" data-target="#exampleModalPreview" class="nav-link" href="#"><i class="fa fa-search"></i></a>
+      
+			<a href="#" class="menuBtn">
+				<span class="lines"></span>
+			</a>
+			<div class="mainMenu">
+        <a href="#" style="float:left; padding: 20px;"><img src="img/logo.png" ></a>
+
+        <div class="vertical-menu">
+          <a href="myaccount.html">MY ACCOUNT</a>
+          <hr> 
+          <a href="cocosoulstory.html">COCO SOUL STORY</a>
+          <hr>
+          <a href="all-products.html">SKIN CARE </a>
+           <hr>
+           <a href="all-products.html">HAIR CARE </a>
+           <hr>
+           <a href="single-product.html">PRODUCT DETAILS</a>
+           <hr>
+          </div>
+      </div>
+      <hr>
+
+		</header>
+		<div class="container">
+		</div>
+		<footer>
+		</footer>
+	</div>
+</div>
+
+
+
+  <!---single product details-->
+
+  <div class="container-fluid" id="product-details-section">
+    <div class="row">
+      <div class="col-md-5">
+        <!-- Flickity HTML init -->
+        <div class="carousel carousel-main" data-flickity='{"pageDots": false }'>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+        </div>
+
+        <div class="carousel carousel-nav"
+          data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/PCE-01.png" width="100%" /></div>
+          <div class="carousel-cell"><img src="img/trivia.png" width="100%" /></div>
+        </div>
+
+      </div>
+      <div class="col-md-7">
+        <h1 class="product-title">COCO SOUL HAIR & SCALP CLEANSER</h1>
+        <p class="product-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="rating-number">(560)</span> <br>
+          <p><span style="color:#ae6f3d; font-size: 20px;">MRP</span> <span class="price--line-through">
+              ₹799.00</span></span><br> <span class="new-price">₹499.00</span> </p>
+        </p>
+        <h3 class="product-sub-title">WITH THE GOODNESS OF VIRGIN KING COCONUT OIL AND THE MAGIC OF KIKIRINDIYA AND
+          GODAPARA.</h3>
+        <hr style="width: 90%;">
+        <p class="product-desc">
+          Imagine your hair being washed by the purest of ingredients. Because that’s what our hair and scalp cleanser
+          is packed with. Organic Virgin king coconut oil and Ayurvedic herbs form the core of this cleanser that
+          cleanses gently but effectively to balance scalp oils, unclog hair follicles and strengthen roots. Hair is
+          left gloriously scented, soft, bouncy and manageable.
+        </p>
+
+        <form method='POST' action='#'>
+          <div class="quantity">
+            <input type='button' value='-' class='minus' field='quantity' /><input type='text' name='quantity' value='0'
+              class='qty' /><input type='button' value='+' class='plus' field='quantity' />
+          </div>
+        </form>
+
+        <div class="row">
+          <div class="col">
+            <div class="button-3" style="margin-left: 0px; width: 100%;">
+              <div class="eff-3"></div>
+              <a href="#"> ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="button-3" style="margin-left: 0px; width: 100%;">
+              <div class="eff-3"></div>
+              <a href="#"> BUY NOW </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Tabs-->
+
+    <main data-aos="fade-in" data-aos-duration="1500">
+
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1">DETAILS & BENEFITS</label>
+
+      <input id="tab2" type="radio" name="tabs">
+      <label for="tab2">HOW TO & TIPS</label>
+
+      <input id="tab3" type="radio" name="tabs">
+      <label for="tab3">Lorem</label>
+
+      <input id="tab4" type="radio" name="tabs">
+      <label for="tab4">Description</label>
+
+      <section id="content1">
+        <h3> Who Should Use It? </h3>
+        <p>
+          Juice Beauty's STEM CELLULAR™ Anti-Wrinkle Moisturizer is ideal for all skin types and especially beneficial
+          for skin showing the signs of aging.
+        </p>
+        <h3>Benefits</h3>
+        <p>
+          <ul>
+            <li>Studies have shown that resveratrol can help fight free radicals.</li>
+            <li>A proprietary blend of fruit stem cells and Vitamin C infused into organic resveratrol-rich grape can
+              improve the appearance of skin tone and luminosity.</li>
+            <li>Hydrates and moisturizes skin with organic antioxidant-rich jojoba and shea.</li>
+            <li>Provides essential fatty acid emollients and powerful antioxidant action with evening primrose, linseed
+              & borage seed.</li>
+          </ul>
+        </p>
+        <h3>Powerful Action Without</h3>
+        <p>
+          Formulated without parabens, petroleum, propylene or butylene glycol, sodium lauryl sulfates, pesticides,
+          phthalates, artificial dyes or synthetic fragrances. Our products are never tested on animals.
+        </p>
+      </section>
+
+      <section id="content2">
+        <p>
+          After using Juice Beauty's STEM CELLULAR™ Anti-Wrinkle Booster Serum and STEM CELLULAR™ Anti-Wrinkle Eye
+          Treatment, apply generously to face, neck and décolleté.
+        </p>
+        <h3>Tips:</h3>
+        <p>
+          Use under makeup for lightweight hydration. Mix with half a pump of PHYTO-PIGMENTS™ Flawless Serum Foundation
+          for lightweight coverage.
+        </p>
+      </section>
+
+      <section id="content3">
+        <!-- <iframe width="100%" height="500px" src="https://www.youtube.com/embed/YCHx5dW5mjc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fugiat eligendi exercitationem repudiandae tenetur, doloremque consequatur adipisci accusamus saepe officiis autem non laboriosam distinctio voluptatum quos reiciendis iste, quidem, ratione tempora tempore? Vitae, minus alias illo nemo ad voluptatum vel, quia quis numquam rem dolorem laborum voluptatibus eius illum totam quam ipsa, unde doloremque repudiandae sunt odio quo? Cupiditate vitae ipsam quia fugiat consequatur illum assumenda, dolores eius quod tenetur laudantium, ipsa obcaecati consequuntur culpa odit soluta? Ad velit quo ipsa pariatur sint iusto aperiam cupiditate modi hic numquam quas ab culpa sunt, quisquam exercitationem molestiae beatae, ducimus odio et voluptatibus possimus harum. Facilis totam eligendi, aperiam harum labore corporis! Deleniti nam magnam ipsum odio neque at vel commodi sint? Nostrum vero ea possimus officiis iure minus dolorem quod omnis blanditiis. Dolorem quos animi possimus dolores in nemo quas rem facilis fuga! Exercitationem magni nobis, mollitia asperiores dolorum odit pariatur ducimus consequatur quidem officiis repudiandae! Animi quas magnam inventore aliquam corporis reiciendis earum, et accusantium! Saepe, consectetur similique quis tempora aperiam nobis aliquid quidem, tenetur a hic, praesentium vitae atque? Saepe, magni magnam aperiam deleniti nulla, facilis quisquam consequuntur quo laudantium officiis sint ipsam hic repudiandae quaerat recusandae eos? Ab?</P>
+      </section>
+
+      <section id="content4">
+        <p>
+          <p>
+            <ul>
+              <li>Studies have shown that resveratrol can help fight free radicals.</li>
+              <li>A proprietary blend of fruit stem cells and Vitamin C infused into organic resveratrol-rich grape can
+                improve the appearance of skin tone and luminosity.</li>
+              <li>Hydrates and moisturizes skin with organic antioxidant-rich jojoba and shea.</li>
+              <li>Provides essential fatty acid emollients and powerful antioxidant action with evening primrose, linseed
+                & borage seed.</li>
+            </ul>
+          </p>
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <!--video-->
+  <!-- <div class="container-full" style="width: 100%; margin-top: 0px;">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="mfp-hide embed-responsive embed-responsive-21by9">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8t1fmMfaOEI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+    
+  <!-- </p><a >Open video<a href=""></a></a> -->
+
+  <div class="main-video-back" >
+      <div class="video-back" data-aos="zoom-in" data-aos-duration="1500">
+        <h1>COCO SOUL STORY</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis porro quasi ipsam, enim harum illum nihil explicabo, sit, magnam numquam pariatur unde atque aliquid officia possimus animi ipsum culpa! Quisquam!</p>
+      <div class="button-4 video-back-btn">
+            <div class="eff-4"></div>
+            <a class="video-link" href="https://www.youtube.com/embed/ONaPq2L-MRg?html5=1" data-width="1920" data-height="1080"> PLAY VIDEO</a>
+          </div>
+      </div>
+    </div>
+
+  <!--POWER INGREDIENTS-->
+  <div class="container" style="margin-top: 80px;">
+    <h1 class="top-one-title" data-aos="zoom-in" data-aos-duration="1200"> POWER INGREDIENTS</h1>
+    <hr style="width: 20%;">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 col-xs-12 " data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card" style="width: 100%;">
+          <img src="img/our-stories.png" class="card-img-top" alt="...">
+          <div class="card-body" >
+            <h5 class="card-title" >SANDALWOOD</h5>
+            <p class="card-text">Revered in the eastern culture for centuries, it encourages reduction in oxidative
+              stress in the skin, deeply moisturizing it to minimize age spots and reverses sun damage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-xs-12" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card" style="width: 100%;">
+          <img src="img/our-stories.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SANDALWOOD</h5>
+            <p class="card-text">Revered in the eastern culture for centuries, it encourages reduction in oxidative
+              stress in the skin, deeply moisturizing it to minimize age spots and reverses sun damage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-xs-12" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card" style="width: 100%;">
+          <img src="img/our-stories.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SANDALWOOD</h5>
+            <p class="card-text">Revered in the eastern culture for centuries, it encourages reduction in oxidative
+              stress in the skin, deeply moisturizing it to minimize age spots and reverses sun damage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--pure brand section-->
+  <div class="container-fluid" style="margin-top: 80px;" >
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-2" data-aos="zoom-in" data-aos-duration="1500">
+        <img class="pure-img-first" src="img/pure-for-sure-logo.png" width="100%">
+      </div>
+      <div class="col-md-5"></div>
+    </div>
+    <div class="row pure" >
+      <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+        <ul>
+          <li>NO PARABENS</li>
+          <li>NO SILICONES </li>
+          <li>NO FORMALDEHYDES</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+        <ul>
+          <li>NO SULPHATES</li>
+          <li>NO PHTHALATES </li>
+          <li>NO PROPYLENE GLYCOL</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+        <ul>
+          <li>NO DEA</li>
+          <li>NO PETROLATUM</li>
+          <li>NO MINERAL OIL</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+        <ul>
+          <li>NO SODIUM CHLORIDE</li>
+          <li>NO ANIMAL TESTING</li>
+          <li>100% VEGAN</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1500" >
+        <img class="pure-img-second" src="/img/pure-for-sure-graphic.png" width="100%" >
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+
+  <h1 class="top-one-title " data-aos="zoom-in" data-aos-duration="1000"> Related Products</h1>
+  <hr width="20%">
+
+  <div class='container-fluid'  style="background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/wine-bg.jpg') no-repeat center center fixed; padding: 100px;">
+    <div class='widget' >
+      <div class='cycle-slideshow' data-aos="zoom-out" data-aos-duration="2000" data-cycle-allow-wrap='true' data-cycle-fx='carousel' data-cycle-next='#next' data-cycle-pager-template="&lt;a href='#' class='thumb'&gt;&lt;img src='{{children.0.src}}'&gt;&lt;/a&gt;" data-cycle-pager='#thumbnails' data-cycle-prev='#prev' data-cycle-slides='figure' data-cycle-timeout='0'>
+        <figure>
+          <img alt='1' src='img/haircare-home.png'>
+          <figcaption>
+            <h3>COCO SOUL NOURISHING BODY LOTION 1</h3>
+            <span class='tag'>Vel nam odio dolorem 2</span>
+            <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta button itaque sunt laborum, magni qui optio.</p>
+            <div class='rating'>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure>
+          <img alt='2' src='img/skincare-home.png'>
+          <figcaption>
+            <h3>COCO SOUL NOURISHING BODY LOTION 2</h3>
+            <span class='tag'>Vel nam odio dolorem 2</span>
+            <p>Totam at eius excepturi deleniti sed, error repellat itaque omnis maiores tempora ratione dolor velit minus porro aspernatur repudiandae.</p>
+            <div class='rating'>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star-o'></span>
+              <span class='fa fa-star-o'></span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure>
+          <img alt='3' src='img/Face Scrubfop_2000px-262x334.png'>
+          <figcaption>
+            <h3>COCO SOUL NOURISHING BODY LOTION 3</h3>
+            <span class='tag'>Vel nam odio dolorem 3</span>
+            <p>Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendis quae repellat, modi non, veniam.</p>
+            <div class='rating'>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star'></span>
+              <span class='fa fa-star-o'></span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class='slideshow-nav'>
+        <div id='prev'>
+          <span class='fa fa-lg fa-chevron-left'></span>
+        </div>
+        <div id='next'>
+          <span class='fa fa-lg fa-chevron-right'></span>
+        </div>
+        <div id='thumbnails'></div>
+      </div>
+    </div>
+  </div>
+  
+  <!--related products-->
+  <div class="container">
+    <h1 class="top-one-title" data-aos="zoom-out" data-aos-duration="1200"> YOU MAY ALSO LIKE</h1>
+    <hr width="20%">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-sm-2 col-xs-12">
+        <div class="card" data-aos="zoom-out" data-aos-duration="2000">
+          <img src="img/shower gel-FOP-262x334.png" id="zoom" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">COCO SOUL NOURISHING BODY LOTION</h5>
+            <p class="card-text">$20 </p>
+            <p class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="rating-number">(560)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3 col-sm-2 col-xs-12">
+        <div class="card" data-aos="zoom-out" data-aos-duration="2000">
+          <img src="img/shower gel-FOP-262x334.png" id="zoom" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">COCO SOUL NOURISHING BODY LOTION</h5>
+            <p class="card-text">$20 </p>
+            <p class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="rating-number">(560)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3 col-sm-2 col-xs-12">
+        <div class="card" data-aos="zoom-out" data-aos-duration="2000">
+          <img src="img/shower gel-FOP-262x334.png" id="zoom" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">COCO SOUL NOURISHING BODY LOTION</h5>
+            <p class="card-text">$20 </p>
+            <p class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="rating-number">(560)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3 col-sm-2 col-xs-12">
+        <div class="card" data-aos="zoom-out" data-aos-duration="2000">
+          <img src="img/shower gel-FOP-262x334.png" id="zoom" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">COCO SOUL NOURISHING BODY LOTION</h5>
+            <p class="card-text">$20 </p>
+            <p class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="rating-number">(560)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="row" style=" width: 100%; text-align: center !important; margin-top: 40px; margin-bottom: 60px;">
+      <h1 class="top-one-title" style="margin-left: 30% !important; margin-right: 20% !important; font-size: 25px;">
+        THE GOODNESS OF COCONUT <br> WITH THE MAGIC OF AYURVEDA
+      </h1>
+      <h3 style="color: #ae6f3d; font: 400; letter-spacing: 1px; font-size: 16px;text-align: center; line-height: 2em;">
+        At the heart of Cocosoul is a belief that as nature’s children, Mother Nature has all the answers for all our
+        concerns. Created with the ancient wisdom of Ayurveda, Cocosoul has the goodness of 100% organic cold pressed,
+        Virgin King Coconut Oil in its core.
+      </h3>
+    </div>
+  </div>
+
+
+  <!--ask a questions popup box-->
+  <div class="bg-overlay" id="questions" >
+    <div class="review-question-box">
+      <a href="#" class="review-question-close">&times;</a>
+
+      <h2>Ask a Question</h2>
+      <form>
+        <div class="form-group">
+          <!-- <label for=""> Name</label> -->
+          <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp"
+            placeholder="Enter Your Name...">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email...">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="write your question here..."
+            rows="4"> </textarea>
+        </div>
+        <button style="float: right; color: #ae6f3d;" type="submit" class="btn btn-lg button-4 ">Submit Question</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!--write a reviews popup box-->
+  <div class="bg-overlay" id="reviews" >
+    <div class="review-question-box">
+      <a href="#" class="review-question-close">&times;</a>
+
+      <h2>Write a Review </h2>
+      <form>
+        <div class="form-group">
+          <!-- <label for=""> Name</label> -->
+          <input style="width: 48%; float: left;" type="text" class="form-control" id="exampleInputName1"
+            aria-describedby="emailHelp" placeholder="Enter Your Name...">
+          <input style="width: 48%; float: right;" type="email" class="form-control" id="exampleInputEmail1"
+            placeholder="Enter Your Email...">
+
+        </div>
+        <br> <br> <br>
+        <div class="form-group">
+          <p class="rating" style="text-align: left !important;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </p>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Title of Review...">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="write your question here..."
+            rows="4"> </textarea>
+        </div>
+        <button style="float: right; color: #ae6f3d;"  type="submit" class="btn btn-lg button-4">Submit Review</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <!---reviews-->
+  <h1 class="top-one-title" > REVIEWS</h1>
+  <hr width="10%" >
+  <div class="container-fluid" class="review-top-nav" style="margin-top: 50px; margin-bottom: 50px; width: 90%;" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-sm-2 col-xs-2">
+        <p class="">
+          <span style="font-size: 50px; "> 4.7 </span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <p style="font-size: 14px; letter-spacing: 1.2px; margin-top: -14px; "> Based on 358 reviews </p>
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-5 col-sm-2 col-xs-2">
+        <div class="row">
+          <div class="col-md-3 ">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <div class="col-md-6 bar-container">
+            <div class="bar-5"></div>
+          </div>
+          <div class="col-md-2"> (999)</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <div class="col-md-6 bar-container">
+            <div class="bar-4"></div>
+          </div>
+          <div class="col-md-2"> (678)</div>
+        </div>
+        <div class="row middle-user-rating">
+          <div class="col-md-3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <div class="col-md-6 bar-container">
+            <div class="bar-3"></div>
+          </div>
+          <div class="col-md-2"> (532)</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <div class="col-md-6 bar-container">
+            <div class="bar-2"></div>
+          </div>
+          <div class="col-md-2"> (200)</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <div class="col-md-6 bar-container">
+            <div class="bar-1"></div>
+          </div>
+          <div class="col-md-2"> (120)</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-2 col-xs-2">
+        <!-- <button  >Ask a Question</button> -->
+        <a class="btn btn-lg btn-popup" href="#reviews"> <i class="fa fa-pencil"></i> Write a Review </a>
+        <a class="btn btn-lg btn-popup" href="#questions"><i class="fa fa-question"></i> Ask a Question</a>
+      </div>
+    </div>
+  </div> <!-- /container -->
+  </div>
+  </div>
+  <div class="container-fluid" style="width:90%" >
+    <div class="row ">
+      <div class="col-md-6">
+        <ul class="nav review-question-tabs responsive" id="myTab">
+          <li class="tab-btn  orange-active" style="margin-right: 20px;" ><a href="#resp-tab1">Reviews</a></li>
+          <li class="tab-btn"><a href="#resp-tab2"></span>Questions</a></li>
+        </ul>
+      </div>
+      <hr width="96.5%">
+
+      <div class="tab-content responsive ">
+        <div class="tab-pane active" id="resp-tab1">
+          <div class="main">
+
+            <!-- Actual search box -->
+
+            <p style="margin-bottom:10px;"> Filter Reviews: </p>
+            <div class="form-group has-search">
+              <span class="fa fa-search form-control-feedback"></span>
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button class="btn btn-lg review-tag">FACE</button>
+            <button class="btn btn-lg review-tag ">SKIN</button>
+            <button class="btn btn-lg review-tag ">PRODUCTS</button>
+            <button class="btn btn-lg review-tag ">Moisturizer</button><br>
+            <button class="btn btn-lg review-tag ">Packaging</button>
+            <button class="btn btn-lg review-tag ">Results</button>
+          </div>
+          <div class="box-review" data-aos="zoom-out" data-aos-duration="1500"> 
+            <p class="rating" style="float: left; margin: 10px;">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p style="margin: 10px; float: right;">
+              <span>
+                12/01/2020
+              </span>
+            </p>
+            <h4 class="golden-review">Smells wonderful</h4>
+            <p style="margin: 10px; font-size: 14px;">
+              Love the product but wish the packaging was less. It comes in a huge , thick plastic tub. Kind of against
+              the whole organic, eco way of thinking.
+            </p>
+            <h4 style="margin: 10px; font-size: 18px;"> Lyn I. <span
+                style="color: lightslategray; font-size: 14px;">Verified Buyer</span></h4>
+            <p>
+              <img style="margin-left: 10px;" src="img/2.jpg" width="25px" height="16px" alt=""> <span>India</span>
+            </p>
+            <p style="font-size:16px; margin: 0px !important; margin-left: 10px !important;"> <i class="fa fa-share-alt"
+                style="font-size:15px;"></i> Share </p>
+            <p style="font-size:15px; margin-left: 10px;">Was this review helpful? <i style="margin-left: 7px;"
+                class="fa fa-thumbs-up"> 1</i> <i class="fa fa-thumbs-down"> 0</i> </p>
+          </div>
+          <div class="box-review" data-aos="zoom-out" data-aos-duration="2000">
+            <p class="rating" style="float: left; margin: 10px;">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+            </p>
+            <p style="margin: 10px; float: right;">
+              <span>
+                12/01/2020
+              </span>
+            </p>
+            <h4 class="golden-review">Love juice products. Highly recommend.
+            </h4>
+            <p style="margin: 10px; font-size: 14px;">
+              Love it!
+
+            </p>
+            <h4 style="margin: 10px; font-size: 18px;"> Amy G. <span
+                style="color: lightslategray; font-size: 14px;">Verified Buyer</span></h4>
+            <p>
+              <img style="margin-left: 10px;" src="img/2.jpg" width="25px" height="16px" alt=""> <span>India</span>
+            </p>
+            <p style="font-size:16px; margin: 0px !important; margin-left: 10px !important;"> <i class="fa fa-share-alt"
+                style="font-size:15px;"></i> Share </p>
+            <p style="font-size:15px; margin-left: 10px;">Was this review helpful? <i style="margin-left: 7px;"
+                class="fa fa-thumbs-up"> 1</i> <i class="fa fa-thumbs-down"> 0</i> </p>
+          </div>
+
+          <div class="box-review" data-aos="zoom-out" data-aos-duration="2000">
+            <p class="rating" style="float: left; margin: 10px;">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+            </p>
+            <p style="margin: 10px; float: right;">
+              <span>
+                12/01/2020
+              </span>
+            </p>
+            <h4 class="golden-review">Stem cellular anti wrinkle moisturizer
+            </h4>
+            <p style="margin: 10px; font-size: 14px;">
+              I really like how it makes my skin feel once I put it on. I have two dry patches that it has turned into
+              smaller areas and definitely softened. I definitely intend to continue using this wonderful product. </p>
+            <h4 style="margin: 10px; font-size: 18px;"> Liz C. <span
+                style="color: lightslategray; font-size: 14px;">Verified Buyer</span></h4>
+            <p>
+              <img style="margin-left: 10px;" src="img/2.jpg" width="25px" height="16px" alt=""> <span>India</span>
+            </p>
+            <p style="font-size:16px; margin: 0px !important; margin-left: 10px !important;"> <i class="fa fa-share-alt"
+                style="font-size:15px;"></i> Share </p>
+            <p style="font-size:15px; margin-left: 10px;">Was this review helpful? <i style="margin-left: 7px;"
+                class="fa fa-thumbs-up"> 1</i> <i class="fa fa-thumbs-down"> 0</i> </p>
+          </div>
+
+          <div class="box-review" data-aos="zoom-out" data-aos-duration="2000">
+            <p class="rating" style="float: left; margin: 10px;">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+            </p>
+            <p style="margin: 10px; float: right;">
+              <span>
+                12/01/2020
+              </span>
+            </p>
+            <h4 class="golden-review" >Love</h4>
+            <p style="margin: 10px; font-size: 14px;">
+              Love love love
+            </p>
+            <h4 style="margin: 10px; font-size: 18px;"> julia d. <span
+                style="color: lightslategray; font-size: 14px;">Verified Buyer</span></h4>
+            <p>
+              <img style="margin-left: 10px;" src="img/2.jpg" width="25px" height="16px" alt=""> <span>India</span>
+            </p>
+            <p style="font-size:16px; margin: 0px !important; margin-left: 10px !important;"> <i class="fa fa-share-alt"
+                style="font-size:15px;"></i> Share </p>
+            <p style="font-size:15px; margin-left: 10px;">Was this review helpful? <i style="margin-left: 7px;"
+                class="fa fa-thumbs-up"> 1</i> <i class="fa fa-thumbs-down"> 0</i> </p>
+          </div>
+
+          <div class="box-review" data-aos="zoom-out" data-aos-duration="2000">
+            <p class="rating" style="float: left; margin: 10px;">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p style="margin: 10px; float: right;">
+              <span>
+                12/01/2020
+              </span>
+            </p>
+            <h4 class="golden-review">Highly Recommend! </h4>
+            <p style="margin: 10px; font-size: 14px;">
+              Amazing product with great results! My skin LOVES it!
+            </p>
+            <h4 style="margin: 10px; font-size: 18px;"> Cathleena S. <span
+                style="color: lightslategray; font-size: 14px;">Verified Buyer</span></h4>
+            <p>
+              <img style="margin-left: 10px;" src="img/2.jpg" width="25px" height="16px" alt=""> <span>India</span>
+            </p>
+            <p style="font-size:16px; margin: 0px !important; margin-left: 10px !important;"> <i class="fa fa-share-alt"
+                style="font-size:15px;"></i> Share </p>
+            <p style="font-size:15px; margin-left: 10px;">Was this review helpful? <i style="margin-left: 7px;"
+                class="fa fa-thumbs-up"> 1</i> <i class="fa fa-thumbs-down"> 0</i> </p>
+          </div>
+
+
+
+
+        </div>
+        <div class="tab-pane" id="resp-tab2">
+          <div class="full-box">
+            <h4>Amanda S.</h4>
+            <p>Does this feel dry to anyone? It’s my first night using it - and the green apple age defy feels exact
+              same but ended up clogging my pores so badly I always have to stop using it. Hoping this isn’t the same.
+              Anyone use both and know if this one is different ?
+            </p>
+            <h3> <i class="fa fa-comments-o"></i> Answers (2)</h3>
+            <h4>
+              Cathleena Smith
+            </h4>
+            <p>
+              I don't find it drying. In fact, it's very moisturizing. I recommend it!
+            </p>
+            <h4>Anonymous</h4>
+            <p>I have used this product for a while without a problem. It seems to make my skin softer. This customer
+              may have an allergy to one of the ingredients.
+            </p>
+          </div>
+          <div class="full-box">
+            <h4>Amanda S.</h4>
+            <p>Does this feel dry to anyone? It’s my first night using it - and the green apple age defy feels exact
+              same but ended up clogging my pores so badly I always have to stop using it. Hoping this isn’t the same.
+              Anyone use both and know if this one is different ?
+            </p>
+            <h3> <i class="fa fa-comments-o"></i> Answers (2)</h3>
+
+            <h4>
+              Cathleena Smith
+            </h4>
+
+            <p>
+              I don't find it drying. In fact, it's very moisturizing. I recommend it!
+            </p>
+            <h4>Anonymous</h4>
+            <p>I have used this product for a while without a problem. It seems to make my skin softer. This customer
+              may have an allergy to one of the ingredients.
+            </p>
+          </div>
+          <div class="full-box">
+            <h4>Amanda S.</h4>
+            <p>Does this feel dry to anyone? It’s my first night using it - and the green apple age defy feels exact
+              same but ended up clogging my pores so badly I always have to stop using it. Hoping this isn’t the same.
+              Anyone use both and know if this one is different ?
+            </p>
+            <h3> <i class="fa fa-comments-o"></i> Answers (2)</h3>
+
+            <h4>
+              Cathleena Smith
+            </h4>
+            <p>
+              I don't find it drying. In fact, it's very moisturizing. I recommend it!
+            </p>
+            <h4>Anonymous</h4>
+            <p>I have used this product for a while without a problem. It seems to make my skin softer. This customer
+              may have an allergy to one of the ingredients.
+            </p>
+          </div>
+          <div class="full-box">
+            <h4>Amanda S.</h4>
+            <p>Does this feel dry to anyone? It’s my first night using it - and the green apple age defy feels exact
+              same but ended up clogging my pores so badly I always have to stop using it. Hoping this isn’t the same.
+              Anyone use both and know if this one is different ?
+            </p>
+            <h3> <i class="fa fa-comments-o"></i> Answers (2)</h3>
+
+            <h4>
+              Cathleena Smith
+            </h4>
+            <p>
+              I don't find it drying. In fact, it's very moisturizing. I recommend it!
+            </p>
+            <h4>Anonymous</h4>
+            <p>I have used this product for a while without a problem. It seems to make my skin softer. This customer
+              may have an allergy to one of the ingredients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+<hr style="width: 90%; margin-bottom: 100px; margin-top: 80px;">
+<footer class="page-footer font-small">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left mt-5" style="width: 90%; ">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 footer-show">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">INFO</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a href="aboutus.html">About Us</a>
+              </p>
+              <p>
+                <a href="Loyality Program.html">Loyalty Program</a>
+              </p>
+              <!-- <p>
+                <a href="#!">Terms & Conditions</a>
+              </p> -->
+              <!-- <p>
+                <a href="#!">Terms Of Sale</a>
+              </p> -->
+              <p>
+                <a href="#!" >Affiliate</a>
+              </p>
+              <p>
+                <a href="#!">Shipping & Returns</a>
+              </p>
+              <p>
+                <a href="#!" >Contact Us</a>
+              </p>
+              <p>
+                <a href="#!" >Gift Certificates</a>
+              </p>
+              <p>
+                <a href="#!" >Site Map</a>
+              </p>
+              
+            </div>
+            <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 footer-show">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">SHOP</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Hair Care</a>
+        </p>
+        <p>
+          <a href="#!"> Skin Care</a>
+        </p>
+        <p>
+          <a href="#!">EXCLUSIVE OFFER</a>
+        </p>
+        
+
+      </div>
+      <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 footer-show">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">ACCOUNT</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a href="#!">My Account</a>
+              </p>
+              <p>
+                <a href="#!">Order History</a>
+              </p>
+              <p>
+                <a href="#!">Returns</a>
+              </p>
+              <p>
+                <a href="#!">Wish List</a>
+              </p>
+              <p>
+                <a href="#!">Newsletter</a>
+               
+              </p>
+
+            </div>
+            <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">SIGN UP & SAVE 10%</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        
+        <p>Subscribe to receive updates, access to exclusive offers, and save 10% off</p>
+          <form class="example" action="#">
+            <input type="text" placeholder="Enter your email address.." name="search" >
+          </form>
+          <div class="button-4" style="width: 48%;height: 48px; margin-left: 0px; border: 1px solid #ae6f3d;">
+            <div class="eff-4"></div>
+            <a href="#"> SIGN UP </a>
+          </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© MYCOCOSOUL. ALL RIGHTS RESERVED <br>
+      <a href="#!">Privacy Policy</a> | <a href="#!">Terms of Service</a>
+      
+  </div>
+
+
+</footer>
+
+<!--Extra page-->
+
+<!-- Modal for search -->
+<div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog momodel modal-fluid" role="document">
+      <div class="modal-content ">
+          <div class=" modal-header text-center">
+              <h5 class="modal-title w-100" id="exampleModalPreviewLabel"><img src="img/logo.png" > </h5>
+              <button  type="button" class="close " data-dismiss="modal" aria-label="Close">
+                  <span style="font-size: 1.3em; color: #ae6f3d;" aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <!--search bar-->
+              <div class="contanier">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8 col-sm-12">
+                      <input style="padding:30px; border-radius: 5px !important;" class="form-control rounded-0" type="search" placeholder="Search for..." id="example-search-input4">
+                  </div>
+                  <div class="col-md-2"></div>
+                  </div>
+              </div>  
+            </div>
+            
+            <!--main content-->
+              <div class="container-fluid" style="width: 90%;">
+                <div class="row">
+                  <div id="modal-body-title" class="col-md-4 col-lg-4 col-sm-12 border-right">
+                    <h2 > What's Hot?</h2>
+                    <div style="margin-top:10px" class="hashtag">
+                        <button type="button" class="btn ">SKIN CARE</button>
+                        <button type="button" class="btn ">HAIR CARE</button>
+                        <button type="button" class="btn ">BODY LOTION</button>
+                        <button type="button" class="btn ">TRENDING</button>
+                        <button type="button" class="btn ">DISCOUNT</button>
+                    </div>
+                  </div>
+                  <div id="modal-body-title" class="col-md-4 col-lg-4 col-sm-12 border-right trending-modal">
+                    <h2>TRENDING </h2>
+                        <div class="row" style="margin-top: 40px;">
+                          <div class="col-md-4"> <img src="img/logo.png" > </div>
+                          <div class="col-md-8">Mycocosoul</div>
+                        </div>
+                        <div class="row" style="margin-top: 40px;">
+                          <div class="col-md-4"> <img src="img/logo.png" > </div>
+                          <div class="col-md-8">Mycocosoul</div>
+                        </div>
+                  </div>
+                  <div id="modal-body-title" class="col-md-4 col-lg-4 col-sm-12 border-right">
+                    <h2>new</h2>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal -->
+
+  <script>
+    jQuery(document).ready(function () {
+      // This button will increment the value
+      $(".plus").click(function (e) {
+
+        e.preventDefault();
+
+        // Define field variable
+        field = "input[name=" + $(this).attr("field") + "]";
+
+        // Get its current value
+        var currentVal = parseInt($(field).val());
+
+        // If is not undefined
+        if (!isNaN(currentVal) && currentVal < 20) {
+
+          // Increment
+          $(field).val(currentVal + 1);
+
+        }
+
+      });
+
+      // This button will decrement the value till 0
+      $(".minus").click(function (e) {
+
+        e.preventDefault();
+
+        // Define field variable
+        field = "input[name=" + $(this).attr("field") + "]";
+
+        // Get its current value
+        var currentVal = parseInt($(field).val());
+
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 1) {
+          // Decrement one
+          $(field).val(currentVal - 1);
+        }
+
+      });
+    });
+  </script>
+  <script>
+    $('ul.nav.review-question-tabs  a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      // menu click event
+      $('.menuBtn').click(function () {
+        $(this).toggleClass('act');
+        if ($(this).hasClass('act')) {
+          $('.mainMenu').addClass('act');
+        } else {
+          $('.mainMenu').removeClass('act');
+        }
+      });
+    });
+  </script>
+
+<script>
+  var $iframe = $('iframe'),
+    $videoLink = $('.video-link'),
+    playerTemplate = '<div class="player"><div class="player__video"><div class="video-filler"></div><button class="video-close">&times;</button><iframe class="video-iframe" src="{{iframevideo}}" frameborder="0" allowfullscreen></iframe></div><div/>';
+
+
+$videoLink.on('click', function(e) {
+    var localTemplate = '',
+        videoWidth = parseInt($(this).data('width')),
+        videoHeight = parseInt($(this).data('height')),
+        videoAspect = ( videoHeight / videoWidth ) * 100,
+        // elements
+        $player = null,
+        $video = null,
+        $close = null,
+        $iframe = null;
+
+    e.preventDefault();
+
+    localTemplate = playerTemplate.replace('{{iframevideo}}', $(this).prop('href'));
+
+    $player = $(localTemplate);
+
+    $player
+        .find('.video-filler')
+        .css('padding-top', videoAspect + '%');
+
+    $close = $player
+        .find('.video-close')
+        .on('click', function() {
+            $(this).off().closest('.player').hide().remove();
+        });
+
+    $player.appendTo('body').addClass('js--show-video');
+});
+</script>
+
+<script>
+  AOS.init();
+ 
+</script>
+  <!-- Footer -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

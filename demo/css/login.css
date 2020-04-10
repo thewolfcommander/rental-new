@@ -1,0 +1,78 @@
+.top-title{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.card-header, .card-sub-header {
+   background: none !important;
+   border: none !important;
+   text-align: center;
+   line-height: 150px;
+}
+.card-header h3{
+   color: #ae6f3d !important;
+   font-size: 32px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+}
+.card-sub-header h3{
+   color: #ae6f3d !important;
+   font-size: 16px;
+   letter-spacing: 2px;
+}
+.form-group input{
+   background: none;
+   border: 1px solid #ae6f3d !important;
+}
+.form-group input:hover{
+ background: none;
+}
+.form-group input:active{
+ background: none;
+}
+
+.button-8{
+width:100%;
+height:50px;
+border:1px solid #ae6f3d;
+float:left;
+text-align:center;
+cursor:pointer;
+position:relative;
+box-sizing:border-box;
+overflow:hidden;
+}
+.button-8 a{
+font-family:arial;
+font-size:16px;
+color:#fff !important;
+text-decoration:none;
+line-height:50px;
+transition:all .8s ease;
+z-index:2;
+position:relative;
+}
+.eff-8{
+width:100%;
+height:50px;
+border:70px solid #ae6f3d;
+position:absolute;
+transition:all .5s ease;
+z-index:1;
+box-sizing:border-box;
+}
+.button-8:hover .eff-8{
+border:0px solid #ae6f3d;
+}
+.button-8:hover a{
+color:#ae6f3d !important;
+}
+.hyperlink {
+float: right;
+margin-bottom: 10px;
+cursor : pointer;
+}
+.card-bottom-link{
+text-align: center; 
+margin-top: 80px !important;
+}
